@@ -3,7 +3,7 @@ import { faEnvelope, faPhone, faMapMarkedAlt } from "@fortawesome/free-solid-svg
 
 export default function Contact() {
   return (
-    <div id="Contact" className="min-h-screen bg-indigo-900 flex flex-col items-center justify-start py-16 font-bold w-full">
+    <div id="Contact" className="h-full w-full bg-indigo-900 flex flex-col items-center justify-start py-16 font-bold ">
       <h1 className="text-white text-2xl mb-8">Contact</h1>
       <div className="w-full max-w-4xl bg-indigo-800 p-8 rounded-lg shadow-xl">
         <h2 className="text-white text-3xl mb-4">Drop me a message</h2>

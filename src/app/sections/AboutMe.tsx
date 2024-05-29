@@ -2,8 +2,8 @@ import dlImage from './../../assets/imagenes/DL.jpg';
 
 export default function AboutMe() {
   return (
-    <div id="AboutMe" className="bg-indigo-900 text-white min-h-screen flex items-center justify-center py-12 w-full">
-      <div className="w-full max-w-4xl p-6">
+    <div id="AboutMe" className="bg-indigo-900 text-white w-full h-full flex items-center justify-center py-12 ">
+      <div className="w-full p-6">
         <div className="flex flex-col md:flex-row items-center">
           <div className="flex-shrink-0">
             <img src={dlImage} alt="Cam in the gym" className="w-64 h-64 object-cover p-1 rounded-lg" />

@@ -3,7 +3,7 @@ import secondProject from './../../assets/imagenes/second.jpg';
 
 export default function Projects() {
   return (
-    <section id="projects" className="p-8 bg-indigo-900 text-white min-h-screen font-bold w-full">
+    <section id="projects" className="p-8 bg-indigo-900 text-white font-bold w-full h-full">
       <h1 className="text-4xl font-bold mb-8 text-center">Cam's Portfolio</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         <div className="flex flex-col justify-center">

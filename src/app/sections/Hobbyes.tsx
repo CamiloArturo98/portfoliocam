@@ -29,7 +29,7 @@ const hobbies = [
 
 const Hobbies: React.FC = () => {
   return (
-    <div id="Hobbies" className="min-h-screen w-full bg-indigo-900 flex flex-col items-center justify-center font-bold">
+    <div id="Hobbies" className=" w-full h-full bg-indigo-900 flex flex-col items-center justify-center font-bold">
       <h1 className="text-white text-2xl mb-8">{t('CAM HOBBIES')}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {hobbies.map((hobby) => (

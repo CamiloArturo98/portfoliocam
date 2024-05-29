@@ -6,23 +6,23 @@ import tyS from './../../assets/imagenes/Typescript_logo_2020.svg.png';
 
 export default function Experience() {
   return (
-    <div id="Experience" className="min-h-screen bg-indigo-900 flex flex-col items-center justify-center font-bold w-full">
+    <div id="Experience" className="w-full h-full bg-indigo-900 flex flex-col items-center justify-center font-bold ">
       <h1 className="text-xl text-white mb-8">EXPERIENCE</h1>
-      <div className="flex justify-around w-full max-w-2xl">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg-grid-cols-5 justify-items-center w-full">
         <div className="flex flex-col items-center">
-          <img src={js} alt="JavaScript" className="w-16 h-16" />
+          <img src={js} alt="JavaScript" className="w-20 h-20" />
         </div>
         <div className="flex flex-col items-center">
-          <img src={html} alt="HTML" className="w-16 h-16" />
+          <img src={html} alt="HTML" className="w-20 h-20" />
         </div>
         <div className="flex flex-col items-center">
-          <img src={css} alt="CSS" className="w-16 h-16" />
+          <img src={css} alt="CSS" className="w-20 h-20" />
         </div>
         <div className="flex flex-col items-center">
-          <img src={java} alt="Java" className="w-16 h-16" />
+          <img src={java} alt="Java" className="w-50 h-20" />
         </div>
         <div className="flex flex-col items-center">
-          <img src={tyS} alt="TypeScript" className="w-16 h-16" />
+          <img src={tyS} alt="TypeScript" className="w-20 h-20" />
         </div>
       </div>
     </div>
