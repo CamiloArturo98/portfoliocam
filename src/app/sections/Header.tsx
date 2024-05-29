@@ -1,16 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import { useTranslation } from 'react-i18next';
+
 
 export const Header = () => {
-  const { i18n, t } = useTranslation();
   const [isNavOpen, setIsNavOpen] = useState(false);
-
-  const onChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const lang_code = e.target.value;
-    i18n.changeLanguage(lang_code);
-  };
-
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
